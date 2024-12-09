@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>ObsCam_Changer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>pngaaa.com-547702.ico</ApplicationIcon>
+    <ApplicationManifest>app1.manifest</ApplicationManifest>
+    <Description></Description>
+    <FileVersion>1.0.3.0</FileVersion>
+    <Version>1.0.3</Version>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Authors>$(AssemblyName)</Authors>
+    <Product>I c u Kite</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="pngaaa.com-547702.ico" />
+  </ItemGroup>
+
+</Project>
